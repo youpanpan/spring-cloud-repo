@@ -1,6 +1,6 @@
 eureka:  
   instance:
-    hostname: 127.0.0.1
+    hostname: localhost
     instanceId: ${eureka.instance.hostname}:${server.port}
   client:
     serviceUrl:
