@@ -1,0 +1,8 @@
+eureka:  
+  instance:
+    hostname: 192.168.1.112
+    instanceId: ${eureka.instance.hostname}:${server.port}
+  client:
+    serviceUrl:
+      #注册中心地址
+      defaultZone: http://192.168.1.112:8761/eureka/
